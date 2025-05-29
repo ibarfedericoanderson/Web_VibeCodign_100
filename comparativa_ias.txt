@@ -1,0 +1,453 @@
+Análisis Comparativo de IAs Gratuitas
+para Vibe Coding
+Agentes de IA con Planificación
+1. Manus.im
+Descripción: Manus es un agente de IA avanzado que permite crear productos digitales
+completos mediante conversación natural. Destaca por su capacidad de planificación y
+ejecución autónoma de tareas complejas.
+Ventajas: - Planificación estructurada de proyectos digitales - Capacidad para crear
+sitios web, aplicaciones y herramientas completas - Generación de código y
+documentación - Interfaz conversacional intuitiva - Posibilidad de iterar sobre el
+producto hasta obtener el resultado deseado
+Limitaciones: - Requiere invitación para acceder (según se menciona en el documento
+original) - La versión gratuita puede tener limitaciones en proyectos muy complejos - El
+deploy de aplicaciones complejas puede requerir pasos adicionales
+Iteraciones gratuitas: Alta cantidad de iteraciones en la versión gratuita Capacidad de
+deploy: Sí, para la mayoría de proyectos web
+Enlace: https://manus.im/
+
+2. GenSpark.ai
+Descripción: GenSpark es un agente de IA que permite crear diversos tipos de contenido
+y productos digitales mediante una interfaz conversacional. Ofrece múltiples
+herramientas integradas como generación de diapositivas, hojas de cálculo y chat.
+Ventajas: - Múltiples herramientas integradas (AI Slides, AI Sheets, AI Chat) - Interfaz
+intuitiva y fácil de usar - Capacidad para generar y modificar código - Buena para
+prototipos rápidos - Registro gratuito disponible
+Limitaciones: - La versión gratuita incluye solo 10 aplicaciones de desarrollo con
+enlaces temporales - Solo permite aplicaciones públicas en el plan gratuito Funcionalidades avanzadas requieren suscripción
+
+Iteraciones gratuitas: Moderada, con trial del agente incluido Capacidad de deploy:
+Limitada en la versión gratuita
+Enlace: https://www.genspark.ai/
+
+3. Replit
+Descripción: Replit es una plataforma de desarrollo en la nube con capacidades de IA
+integradas. Permite crear, ejecutar y desplegar código directamente desde el navegador,
+con soporte para múltiples lenguajes de programación.
+Ventajas: - Entorno de desarrollo completo en la nube - Soporte para múltiples
+lenguajes de programación - Integración con Claude Sonnet para asistencia en
+codificación - Capacidad de deploy incluida - Comunidad activa y recursos de
+aprendizaje
+Limitaciones: - Plan gratuito limitado a aplicaciones públicas - Recursos
+computacionales restringidos en la versión gratuita - Deploy avanzado requiere plan de
+pago
+Iteraciones gratuitas: Alta, especialmente para proyectos pequeños y medianos
+Capacidad de deploy: Sí, con algunas limitaciones en la versión gratuita
+Enlace: https://replit.com/
+
+IAs con Iteraciones Ilimitadas (No Agentes)
+4. DeepSeek
+Descripción: DeepSeek es un modelo de lenguaje avanzado que permite generar
+código, responder preguntas y asistir en el desarrollo de productos digitales mediante
+conversación natural.
+Ventajas: - Iteraciones prácticamente ilimitadas en la versión gratuita - Excelente
+capacidad para generar y explicar código - Soporte para múltiples lenguajes de
+programación - Interfaz limpia y fácil de usar - Buena comprensión de contexto técnico
+Limitaciones: - No es un agente completo (no planifica de forma autónoma) - No ofrece
+deploy directo de aplicaciones - Requiere conocimientos técnicos para implementar las
+soluciones
+Iteraciones gratuitas: Muy alta, prácticamente ilimitadas Capacidad de deploy: No,
+requiere implementación manual
+
+Enlace: https://chat.deepseek.com/
+
+5. Qwen.ai
+Descripción: Qwen es un modelo de lenguaje desarrollado por Alibaba que ofrece
+capacidades avanzadas de generación de código y asistencia en desarrollo de productos
+digitales.
+Ventajas: - Iteraciones prácticamente ilimitadas - Capacidad "Artifacts" para generar
+código completo - Función "Web Dev" especializada en desarrollo web - Buena
+comprensión de requisitos técnicos - Interfaz intuitiva con diferentes modos de uso
+Limitaciones: - No es un agente completo (no planifica de forma autónoma) - No ofrece
+deploy directo - Puede requerir refinamiento manual del código generado
+Iteraciones gratuitas: Muy alta, prácticamente ilimitadas Capacidad de deploy: No,
+requiere implementación manual
+Enlace: https://chat.qwen.ai/
+
+6. Yourware.so
+Descripción: Yourware es una plataforma especializada en la creación de productos
+digitales mediante IA, con enfoque en la generación de interfaces y experiencias de
+usuario de alta calidad.
+Ventajas: - Especializada en creación de productos digitales - Integración con Claude 3.7
+Sonnet - Buena capacidad para generar interfaces visuales - Enfoque en experiencia de
+usuario - Resultados de alta calidad visual
+Limitaciones: - Posibles restricciones en la versión gratuita - Puede requerir
+conocimientos técnicos para implementación completa - Deploy no incluido
+directamente
+Iteraciones gratuitas: Moderada Capacidad de deploy: Limitada, enfocada más en
+prototipado
+Enlace: https://www.yourware.so/
+
+Otras Herramientas Relevantes
+7. Lovable.dev
+Descripción: Plataforma especializada en desarrollo web rápido con IA, conectada a
+Supabase y GitHub.
+Ventajas: - Especializada en desarrollo web - Integración con Supabase para backend Conexión con GitHub - Enfoque en aplicaciones web funcionales
+Limitaciones: - Limitaciones de créditos en versión gratuita - Requiere conocimiento
+técnico para aprovechar al máximo
+Iteraciones gratuitas: Limitada Capacidad de deploy: Sí, pero con restricciones
+Enlace: https://lovable.dev
+
+8. Bolt.new
+Descripción: Herramienta para generación rápida de aplicaciones web mediante
+descripción en lenguaje natural.
+Ventajas: - Interfaz simple y directa - Generación rápida de prototipos - Enfoque en nocode/low-code
+Limitaciones: - Problemas reportados con "Install Dependencies" - Limitaciones en la
+complejidad de aplicaciones generadas
+Iteraciones gratuitas: Moderada Capacidad de deploy: Limitada
+Enlace: https://bolt.new
+
+9. Google AI Studio (con Gemini)
+Descripción: Plataforma de Google para experimentar con modelos de IA Gemini, con
+capacidades de generación de código y creación de aplicaciones.
+Ventajas: - Acceso a modelos avanzados de Google - Starter Apps y creación de
+aplicaciones - Capacidad de deploy incluida - Buena documentación y soporte
+Limitaciones: - Limitaciones en la versión gratuita - Enfoque más en experimentación
+que en desarrollo completo
+Iteraciones gratuitas: Moderada Capacidad de deploy: Sí, para aplicaciones simples
+
+Enlace: https://aistudio.google.com/
+
+10. Inception Labs
+Descripción: Plataforma con velocidad increíble de generación de código para
+prototipos digitales.
+Ventajas: - Velocidad excepcional en generación de código - Buena calidad de código
+generado - Interfaz intuitiva
+Limitaciones: - No permite despliegue directo - Requiere implementación manual del
+código generado
+Iteraciones gratuitas: Moderada Capacidad de deploy: No
+Enlace: https://www.inceptionlabs.ai/
+
+11. LlamaCoder
+Descripción: Herramienta especializada en generación de código basada en modelos
+Llama.
+Ventajas: - Especializada en código - Buena comprensión de requisitos técnicos Soporte para múltiples lenguajes de programación
+Limitaciones: - Enfocada solo en generación de código, no en productos completos - Sin
+capacidades de deploy
+Iteraciones gratuitas: Moderada Capacidad de deploy: No
+Enlace: https://llamacoder.together.ai/
+
+12. WebSim.ai
+Descripción: Plataforma especializada en creación de páginas web mediante IA.
+Ventajas: - Enfoque específico en desarrollo web - Interfaz intuitiva para diseño web Resultados visuales de calidad
+Limitaciones: - Funcionalidades limitadas en versión gratuita - Enfoque principalmente
+en frontend
+Iteraciones gratuitas: Limitada Capacidad de deploy: Limitada
+Enlace: https://websim.ai/
+
+13. DeepSite (Hugging Face)
+Descripción: Espacio en Hugging Face para iterar en la creación de sitios web mediante
+IA.
+Ventajas: - Integración con el ecosistema de Hugging Face - Comunidad activa Posibilidad de personalización
+Limitaciones: - Requiere conocimientos técnicos para aprovechar al máximo - Proceso
+de deploy más complejo
+Iteraciones gratuitas: Moderada Capacidad de deploy: Limitada, a través de Hugging
+Face Spaces
+Enlace: https://huggingface.co/spaces/enzostvs/deepsite
+
+14. Emergent.sh
+Descripción: Agente de IA para tareas complejas como investigación profunda y
+creación de productos digitales.
+Ventajas: - Capacidades avanzadas de investigación - Creación de productos digitales
+basados en investigación - Incluye capacidad de deploy
+Limitaciones: - Requiere invitación especial (código: VIBEWITHALVARADO) - Posibles
+limitaciones en versión gratuita
+Iteraciones gratuitas: Moderada Capacidad de deploy: Sí
+Enlace: https://app.emergent.sh/
+
+15. Cursor.com
+Descripción: Editor de código basado en VS Code con IA integrada para asistencia en
+programación.
+Ventajas: - Entorno familiar para desarrolladores - Potentes capacidades de asistencia
+en codificación - Integración con flujos de trabajo de desarrollo
+Limitaciones: - No es completamente gratuito - No incluye deploy directo - Enfocado
+más en asistencia que en generación completa
+Iteraciones gratuitas: Limitada Capacidad de deploy: No
+Enlace: https://www.cursor.com/
+
+16. Windsurf.com
+Descripción: Editor de código con IA integrada similar a VS Code.
+Ventajas: - Interfaz familiar para desarrolladores - Asistencia en codificación - Buena
+integración con flujos de trabajo existentes
+Limitaciones: - No es completamente gratuito - Sin capacidades de deploy directo Enfocado en asistencia más que en generación completa
+Iteraciones gratuitas: Limitada Capacidad de deploy: No
+Enlace: https://windsurf.com/editor
+
+17. Firebase.studio
+Descripción: Plataforma que permite crear y modificar código con integración a
+Firebase.
+Ventajas: - Integración directa con Firebase - Capacidad para crear y modificar archivos Buena para aplicaciones con backend
+Limitaciones: - Deploy no gratuito - Requiere conocimientos de Firebase - Curva de
+aprendizaje moderada
+Iteraciones gratuitas: Moderada Capacidad de deploy: No gratuito
+Enlace: https://firebase.studio/
+
+Comparativa de Criterios Clave
+Iteraciones
+
+Capacidad
+
+Gratuitas
+
+de Deploy
+
+Agente
+
+Alta
+
+Sí
+
+Excelente
+
+Alta
+
+Agente
+
+Moderada
+
+Limitada
+
+Muy buena
+
+Alta
+
+Alta
+
+Sí
+
+Buena
+
+Media
+
+Herramienta
+
+Tipo
+
+Manus.im
+GenSpark.ai
+Replit
+
+Agente/
+IDE
+
+Planificación
+
+Facilidad
+de Uso
+
+DeepSeek
+
+LLM
+
+Muy alta
+
+No
+
+No
+
+Alta
+
+Qwen.ai
+
+LLM
+
+Muy alta
+
+No
+
+No
+
+Alta
+
+Iteraciones
+
+Capacidad
+
+Gratuitas
+
+de Deploy
+
+Plataforma
+
+Moderada
+
+Limitada
+
+Parcial
+
+Alta
+
+Lovable.dev
+
+Plataforma
+
+Limitada
+
+Sí
+
+No
+
+Media
+
+Bolt.new
+
+Plataforma
+
+Moderada
+
+Limitada
+
+No
+
+Alta
+
+Plataforma
+
+Moderada
+
+Sí
+
+Parcial
+
+Media
+
+Inception Labs
+
+Plataforma
+
+Moderada
+
+No
+
+No
+
+Alta
+
+LlamaCoder
+
+LLM
+
+Moderada
+
+No
+
+No
+
+Media
+
+WebSim.ai
+
+Plataforma
+
+Limitada
+
+Limitada
+
+No
+
+Alta
+
+DeepSite
+
+Plataforma
+
+Moderada
+
+Limitada
+
+No
+
+Media
+
+Emergent.sh
+
+Agente
+
+Moderada
+
+Sí
+
+Buena
+
+Media
+
+Cursor.com
+
+IDE
+
+Limitada
+
+No
+
+No
+
+Alta
+
+Windsurf.com
+
+IDE
+
+Limitada
+
+No
+
+No
+
+Alta
+
+Firebase.studio
+
+Plataforma
+
+Moderada
+
+No gratuito
+
+No
+
+Media
+
+Herramienta
+
+Tipo
+
+Yourware.so
+
+Google AI
+Studio
+
+Planificación
+
+Facilidad
+de Uso
+
+Recomendaciones según Caso de Uso
+Para Prototipado Rápido con Deploy
+Recomendación principal: Manus.im o Replit - Manus ofrece mejor planificación y
+asistencia - Replit proporciona un entorno de desarrollo más completo
+
+Para Máximas Iteraciones sin Necesidad de Deploy Inmediato
+Recomendación principal: DeepSeek o Qwen.ai - Ambas ofrecen iteraciones
+prácticamente ilimitadas - Ideal para experimentar y refinar ideas antes de
+implementación
+
+Para Equilibrio entre Planificación y Recursos Gratuitos
+Recomendación principal: GenSpark.ai - Buena planificación con recursos gratuitos
+razonables - Ideal para proyectos de complejidad media
+
+Para Desarrollo Web Especializado
+Recomendación principal: Yourware.so o Lovable.dev - Enfocadas en desarrollo web
+con resultados de alta calidad - Mejores para interfaces y experiencias de usuario
+refinadas
+
+
