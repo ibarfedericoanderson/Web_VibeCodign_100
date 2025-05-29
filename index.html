@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metodología Vibe Coding | Desarrollo de Productos Digitales con IA</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navegación -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <h1>Vibe<span>Coding</span></h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#metodologia">Metodología</a></li>
+                <li><a href="#flujo-trabajo">Flujo de Trabajo</a></li>
+                <li><a href="#herramientas">Herramientas IA</a></li>
+                <li><a href="#recursos">Recursos</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Metodología Vibe Coding</h1>
+                <h2>Democratizando la creación de productos digitales mediante IA</h2>
+                <p>Crea sitios web, aplicaciones y prototipos digitales utilizando herramientas de IA gratuitas con máximas iteraciones y capacidad de deploy.</p>
+                <a href="#metodologia" class="btn btn-primary">Descubre cómo <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="hero-image">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" class="floating-icon" id="js-icon">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" class="floating-icon" id="html-icon">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" class="floating-icon" id="css-icon">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" class="floating-icon" id="react-icon">
+                <div class="hero-illustration">
+                    <div class="ai-chat">
+                        <div class="chat-bubble user">Quiero crear una landing page para mi negocio</div>
+                        <div class="chat-bubble ai">Generando prototipo con HTML, CSS y JavaScript...</div>
+                        <div class="chat-bubble code"><code>&lt;div class="hero"&gt;<br>&nbsp;&nbsp;&lt;h1&gt;Mi Negocio&lt;/h1&gt;<br>&lt;/div&gt;</code></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Introducción -->
+    <section class="intro" id="intro">
+        <div class="container">
+            <div class="section-header">
+                <h2>¿Qué es Vibe Coding?</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="intro-content">
+                <div class="intro-text">
+                    <p>El <strong>Vibe Coding</strong> representa un cambio paradigmático en el desarrollo de productos digitales, democratizando el acceso a la creación tecnológica mediante la colaboración entre humanos e inteligencia artificial.</p>
+                    <p>Este enfoque permite a diseñadores, desarrolladores y entusiastas crear aplicaciones, sitios web y otros productos digitales mediante comunicación en lenguaje natural con sistemas de IA avanzados.</p>
+                    <p>A diferencia de los métodos tradicionales de desarrollo, el Vibe Coding reduce significativamente las barreras técnicas y acelera los ciclos de validación e iteración, permitiendo experimentar con ideas rápidamente y obtener retroalimentación en tiempo real.</p>
+                </div>
+                <div class="intro-cards">
+                    <div class="card">
+                        <div class="card-icon"><i class="fas fa-rocket"></i></div>
+                        <h3>Iteración Rápida</h3>
+                        <p>Ciclos cortos de prueba y refinamiento para validar ideas con rapidez</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon"><i class="fas fa-users"></i></div>
+                        <h3>Democratización</h3>
+                        <p>Accesible para personas con diferentes niveles de experiencia técnica</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon"><i class="fas fa-robot"></i></div>
+                        <h3>Colaboración Humano-IA</h3>
+                        <p>Aprovecha las fortalezas complementarias de la creatividad humana y la eficiencia de la IA</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon"><i class="fas fa-expand-arrows-alt"></i></div>
+                        <h3>Escalabilidad</h3>
+                        <p>Evolución desde conceptos simples hasta productos completos</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Metodología -->
+    <section class="metodologia" id="metodologia">
+        <div class="container">
+            <div class="section-header">
+                <h2>Metodología Vibe Coding</h2>
+                <div class="underline"></div>
+                <p>Un enfoque estructurado en 5 fases para el desarrollo de productos digitales mediante IA</p>
+            </div>
+            
+            <div class="flowchart-container">
+                <div id="metodologia-flowchart"></div>
+            </div>
+            
+            <div class="fases-accordion">
+                <div class="fase-item active" data-fase="1">
+                    <div class="fase-header">
+                        <h3><span class="fase-number">1</span> Definición y Planificación</h3>
+                        <span class="toggle-icon"><i class="fas fa-chevron-down"></i></span>
+                    </div>
+                    <div class="fase-content">
+                        <ul>
+                            <li><strong>Identificación del Problema:</strong> Define claramente qué problema resolverá tu producto digital</li>
+                            <li><strong>Investigación Contextual:</strong> Analiza soluciones existentes y tendencias relevantes</li>
+                            <li><strong>Definición de Requerimientos:</strong> Establece funcionalidades clave y componentes principales</li>
+                            <li><strong>Selección de Herramientas:</strong> Elige las herramientas de IA adecuadas según tus necesidades</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="fase-item" data-fase="2">
+                    <div class="fase-header">
+                        <h3><span class="fase-number">2</span> Prototipado Conversacional</h3>
+                        <span class="toggle-icon"><i class="fas fa-chevron-down"></i></span>
+                    </div>
+                    <div class="fase-content">
+                        <ul>
+                            <li><strong>Descripción Inicial:</strong> Formula una descripción clara y detallada del producto</li>
+                            <li><strong>Generación del Prototipo Base:</strong> Obtén una primera versión del código o estructura</li>
+                            <li><strong>Refinamiento Iterativo:</strong> Mejora progresivamente mediante ciclos de instrucción-generación</li>
+                            <li><strong>Prueba de Concepto:</strong> Verifica la funcionalidad básica y alineación con requisitos</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="fase-item" data-fase="3">
+                    <div class="fase-header">
+                        <h3><span class="fase-number">3</span> Desarrollo y Optimización</h3>
+                        <span class="toggle-icon"><i class="fas fa-chevron-down"></i></span>
+                    </div>
+                    <div class="fase-content">
+                        <ul>
+                            <li><strong>Expansión de Funcionalidades:</strong> Agrega progresivamente funcionalidades secundarias</li>
+                            <li><strong>Integración de Servicios:</strong> Conecta con APIs y servicios externos necesarios</li>
+                            <li><strong>Optimización Técnica:</strong> Mejora la calidad del código y el rendimiento</li>
+                            <li><strong>Pruebas Sistemáticas:</strong> Verifica funcionalidad en diferentes escenarios</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="fase-item" data-fase="4">
+                    <div class="fase-header">
+                        <h3><span class="fase-number">4</span> Despliegue y Validación</h3>
+                        <span class="toggle-icon"><i class="fas fa-chevron-down"></i></span>
+                    </div>
+                    <div class="fase-content">
+                        <ul>
+                            <li><strong>Preparación para el Despliegue:</strong> Configura el entorno de producción</li>
+                            <li><strong>Despliegue del Prototipo:</strong> Utiliza las capacidades de deploy de la herramienta</li>
+                            <li><strong>Validación con Usuarios:</strong> Recopila retroalimentación de usuarios reales</li>
+                            <li><strong>Iteración Post-Despliegue:</strong> Implementa mejoras basadas en la retroalimentación</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="fase-item" data-fase="5">
+                    <div class="fase-header">
+                        <h3><span class="fase-number">5</span> Evolución y Escalabilidad</h3>
+                        <span class="toggle-icon"><i class="fas fa-chevron-down"></i></span>
+                    </div>
+                    <div class="fase-content">
+                        <ul>
+                            <li><strong>Evaluación de Limitaciones:</strong> Identifica limitaciones técnicas del prototipo</li>
+                            <li><strong>Plan de Evolución:</strong> Define la hoja de ruta para el desarrollo futuro</li>
+                            <li><strong>Documentación Técnica:</strong> Documenta la arquitectura y componentes</li>
+                            <li><strong>Transición:</strong> Prepara el proyecto para desarrollo profesional si se requiere</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Flujo de Trabajo -->
+    <section class="flujo-trabajo" id="flujo-trabajo">
+        <div class="container">
+            <div class="section-header">
+                <h2>Flujo de Trabajo Paso a Paso</h2>
+                <div class="underline"></div>
+                <p>Proceso práctico para implementar la metodología Vibe Coding en tus proyectos</p>
+            </div>
+            
+            <div class="workflow-tabs">
+                <div class="tab-headers">
+                    <button class="tab-btn active" data-tab="preparacion">Preparación</button>
+                    <button class="tab-btn" data-tab="prototipo">Prototipo Inicial</button>
+                    <button class="tab-btn" data-tab="refinamiento">Refinamiento</button>
+                    <button class="tab-btn" data-tab="deploy">Deploy</button>
+                    <button class="tab-btn" data-tab="documentacion">Documentación</button>
+                </div>
+                
+                <div class="tab-content">
+                    <div class="tab-pane active" id="preparacion">
+                        <div class="workflow-steps">
+                            <div class="step">
+                                <div class="step-number">1</div>
+                                <div class="step-content">
+                                    <h4>Definir el Producto Digital</h4>
+                                    <p>Describe claramente qué producto digital deseas crear (sitio web, landing page, aplicación, etc.)</p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <div class="step-number">2</div>
+                                <div class="step-content">
+                                    <h4>Investigar Referencias y Ejemplos</h4>
+                                    <p>Busca productos similares para inspiración y análisis</p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <div class="step-number">3</div>
+                                <div class="step-content">
+                                    <h4>Seleccionar la Herramienta de IA Adecuada</h4>
+                                    <p>Elige la herramienta según tus necesidades específicas</p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <div class="step-number">4</div>
+                                <div class="step-content">
+                                    <h4>Preparar los Requisitos Detallados</h4>
+                                    <p>Elabora una lista de funcionalidades, diseño y comportamientos esperados</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tab-pane" id="prototipo">
+                        <div class="workflow-steps">
+                            <div class="step">
+                                <div class="step-number">5</div>
+                                <div class="step-content">
+                                    <h4>Formular el Prompt Inicial</h4>
+                                    <p>Redacta una descripción clara y detallada para la IA</p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <div class="step-number">6</div>
+                                <div class="step-content">
+                                    <h4>Generar el Prototipo Base</h4>
+                                    <p>Envía el prompt a la herramienta de IA seleccionada</p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <div class="step-number">7</div>
+                                <div class="step-content">
+                                    <h4>Revisar y Analizar el Resultado</h4>
+                                    <p>Examina el prototipo generado para identificar aciertos y áreas de mejora</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tab-pane" id="refinamiento">
+                        <div class="workflow-steps">
+                            <div class="step">
+                                <div class="step-number">8</div>
+                                <div class="step-content">
+                                    <h4>Iterar con Instrucciones Específicas</h4>
+                                    <p>Proporciona feedback claro y solicita mejoras concretas</p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <div class="step-number">9</div>
+                                <div class="step-content">
+                                    <h4>Probar Funcionalidades</h4>
+                                    <p>Verifica que las funcionalidades clave operen correctamente</p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <div class="step-number">10</div>
+                                <div class="step-content">
+                                    <h4>Refinar Diseño y Experiencia de Usuario</h4>
+                                    <p>Solicita mejoras específicas en la interfaz y experiencia</p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <div class="step-number">11</div>
+                                <div class="step-content">
+                                    <h4>Optimizar para Diferentes Dispositivos</h4>
+                                    <p>Solicita adaptaciones para móviles, tablets y escritorio</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tab-pane" id="deploy">
+                        <div class="workflow-steps">
+                            <div class="step">
+                                <div class="step-number">12</div>
+                                <div class="step-content">
+                                    <h4>Revisar y Corregir Errores</h4>
+                                    <p>Identifica y solicita corrección de bugs o problemas técnicos</p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <div class="step-number">13</div>
+                                <div class="step-content">
+                                    <h4>Optimizar Rendimiento</h4>
+                                    <p>Solicita mejoras de rendimiento y optimización</p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <div class="step-number">14</div>
+                                <div class="step-content">
+                                    <h4>Preparar Archivos para Deploy</h4>
+                                    <p>Organiza y prepara todos los archivos necesarios</p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <div class="step-number">15</div>
+                                <div class="step-content">
+                                    <h4>Realizar el Deploy</h4>
+                                    <p>Despliega el producto en un entorno accesible</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tab-pane" id="documentacion">
+                        <div class="workflow-steps">
+                            <div class="step">
+                                <div class="step-number">16</div>
+                                <div class="step-content">
+                                    <h4>Probar en Entorno Real</h4>
+                                    <p>Verifica todas las funcionalidades en el entorno de producción</p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <div class="step-number">17</div>
+                                <div class="step-content">
+                                    <h4>Iterar Post-Deploy</h4>
+                                    <p>Realiza ajustes finales basados en pruebas reales</p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <div class="step-number">18</div>
+                                <div class="step-content">
+                                    <h4>Documentar el Producto</h4>
+                                    <p>Solicita a la IA que genere documentación del producto</p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <div class="step-number">19</div>
+                                <div class="step-content">
+                                    <h4>Exportar y Respaldar</h4>
+                                    <p>Guarda copias de todo el código y recursos</p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <div class="step-number">20</div>
+                                <div class="step-content">
+                                    <h4>Planificar Evolución Futura</h4>
+                                    <p>Define próximos pasos y mejoras potenciales</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="workflow-tips">
+                <h3>Consejos para Maximizar Resultados</h3>
+                <div class="tips-grid">
+                    <div class="tip">
+                        <div class="tip-icon"><i class="fas fa-robot"></i></div>
+                        <h4>Para Agentes de IA</h4>
+                        <p>Proporciona contexto completo desde el inicio y aprovecha las capacidades de planificación autónoma</p>
+                    </div>
+                    <div class="tip">
+                        <div class="tip-icon"><i class="fas fa-comments"></i></div>
+                        <h4>Para LLMs con Muchas Iteraciones</h4>
+                        <p>Divide el proyecto en componentes manejables e itera componente por componente</p>
+                    </div>
+                    <div class="tip">
+                        <div class="tip-icon"><i class="fas fa-infinity"></i></div>
+                        <h4>Para Optimizar Iteraciones Gratuitas</h4>
+                        <p>Prepara prompts detallados y específicos, agrupando cambios relacionados en una sola iteración</p>
+                    </div>
+                    <div class="tip">
+                        <div class="tip-icon"><i class="fas fa-cloud-upload-alt"></i></div>
+                        <h4>Para Facilitar el Deploy</h4>
+                        <p>Elige tecnologías compatibles con plataformas gratuitas y minimiza dependencias externas</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Herramientas IA -->
+    <section class="herramientas" id="herramientas">
+        <div class="container">
+            <div class="section-header">
+                <h2>Herramientas de IA Recomendadas</h2>
+                <div class="underline"></div>
+                <p>Análisis comparativo de IAs gratuitas con capacidad de iteración y deploy</p>
+            </div>
+            
+            <div class="tools-filter">
+                <button class="filter-btn active" data-filter="all">Todas</button>
+                <button class="filter-btn" data-filter="agentes">Agentes de IA</button>
+                <button class="filter-btn" data-filter="iteraciones">Iteraciones Ilimitadas</button>
+                <button class="filter-btn" data-filter="deploy">Con Deploy</button>
+            </div>
+            
+            <div class="tools-table-container">
+                <table class="tools-table" id="tools-table">
+                    <thead>
+                        <tr>
+                            <th>Herramienta</th>
+                            <th>Tipo</th>
+                            <th>Iteraciones Gratuitas</th>
+                            <th>Deploy</th>
+                            <th>Planificación</th>
+                            <th>Detalles</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Agentes de IA con Planificación -->
+                        <tr class="tool-item" data-category="agentes deploy">
+                            <td><a href="https://manus.im/" target="_blank">Manus.im</a></td>
+                            <td>Agente</td>
+                            <td>Alta</td>
+                            <td>Sí</td>
+                            <td>Excelente</td>
+                            <td><button class="btn-details" data-tool="manus">Ver</button></td>
+                        </tr>
+                        <tr class="tool-item" data-category="agentes">
+                            <td><a href="https://www.genspark.ai/" target="_blank">GenSpark.ai</a></td>
+                            <td>Agente</td>
+                            <td>Moderada</td>
+                            <td>Limitada</td>
+                            <td>Muy buena</td>
+                            <td><button class="btn-details" data-tool="genspark">Ver</button></td>
+                        </tr>
+                        <tr class="tool-item" data-category="agentes deploy">
+                            <td><a href="https://replit.com/" target="_blank">Replit</a></td>
+                            <td>Agente/IDE</td>
+                            <td>Alta</td>
+                            <td>Sí</td>
+                            <td>Buena</td>
+                            <td><button class="btn-details" data-tool="replit">Ver</button></td>
+                        </tr>
+                        
+                        <!-- IAs con Iteraciones Ilimitadas -->
+                        <tr class="tool-item" data-category="iteraciones">
+                            <td><a href="https://chat.deepseek.com/" target="_blank">DeepSeek</a></td>
+                            <td>LLM</td>
+                            <td>Muy alta</td>
+                            <td>No</td>
+                            <td>No</td>
+                            <td><button class="btn-details" data-tool="deepseek">Ver</button></td>
+                        </tr>
+                        <tr class="tool-item" data-category="iteraciones">
+                            <td><a href="https://chat.qwen.ai/" target="_blank">Qwen.ai</a></td>
+                            <td>LLM</td>
+                            <td>Muy alta</td>
+                            <td>No</td>
+                            <td>No</td>
+                            <td><button class="btn-details" data-tool="qwen">Ver</button></td>
+                        </tr>
+                        <tr class="tool-item" data-category="iteraciones">
+                            <td><a href="https://www.yourware.so/" target="_blank">Yourware.so</a></td>
+                            <td>Plataforma</td>
+                            <td>Moderada</td>
+                            <td>Limitada</td>
+                            <td>Parcial</td>
+                            <td><button class="btn-details" data-tool="yourware">Ver</button></td>
+                        </tr>
+                        
+                        <!-- Otras Herramientas Relevantes -->
+                        <tr class="tool-item" data-category="deploy">
+                            <td><a href="https://lovable.dev" target="_blank">Lovable.dev</a></td>
+                            <td>Plataforma</td>
+                            <td>Limitada</td>
+                            <td>Sí</td>
+                            <td>No</td>
+                            <td><button class="btn-details" data-tool="lovable">Ver</button></td>
+                        </tr>
+                        <tr class="tool-item" data-category="">
+                            <td><a href="https://bolt.new" target="_blank">Bolt.new</a></td>
+                            <td>Plataforma</td>
+                            <td>Moderada</td>
+                            <td>Limitada</td>
+                            <td>No</td>
+                            <td><button class="btn-details" data-tool="bolt">Ver</button></td>
+                        </tr>
+                        <tr class="tool-item" data-category="deploy">
+                            <td><a href="https://aistudio.google.com/" target="_blank">Google AI Studio</a></td>
+                            <td>Plataforma</td>
+                            <td>Moderada</td>
+                            <td>Sí</td>
+                            <td>Parcial</td>
+                            <td><button class="btn-details" data-tool="google">Ver</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <div class="tools-recommendation">
+                <h3>Recomendaciones según Caso de Uso</h3>
+                <div class="recommendation-cards">
+                    <div class="recommendation-card">
+                        <div class="card-header">
+                            <i class="fas fa-bolt"></i>
+                            <h4>Prototipado Rápido con Deploy</h4>
+                        </div>
+                        <div class="card-body">
+                            <p><strong>Recomendación:</strong> Manus.im o Replit</p>
+                            <ul>
+                                <li>Manus ofrece mejor planificación y asistencia</li>
+                                <li>Replit proporciona un entorno de desarrollo más completo</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="recommendation-card">
+                        <div class="card-header">
+                            <i class="fas fa-infinity"></i>
+                            <h4>Máximas Iteraciones</h4>
+                        </div>
+                        <div class="card-body">
+                            <p><strong>Recomendación:</strong> DeepSeek o Qwen.ai</p>
+                            <ul>
+                                <li>Ambas ofrecen iteraciones prácticamente ilimitadas</li>
+                                <li>Ideal para experimentar y refinar ideas</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="recommendation-card">
+                        <div class="card-header">
+                            <i class="fas fa-balance-scale"></i>
+                            <h4>Equilibrio Planificación/Recursos</h4>
+                        </div>
+                        <div class="card-body">
+                            <p><strong>Recomendación:</strong> GenSpark.ai</p>
+                            <ul>
+                                <li>Buena planificación con recursos gratuitos razonables</li>
+                                <li>Ideal para proyectos de complejidad media</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="recommendation-card">
+                        <div class="card-header">
+                            <i class="fas fa-laptop-code"></i>
+                            <h4>Desarrollo Web Especializado</h4>
+                        </div>
+                        <div class="card-body">
+                            <p><strong>Recomendación:</strong> Yourware.so o Lovable.dev</p>
+                            <ul>
+                                <li>Enfocadas en desarrollo web con resultados de alta calidad</li>
+                                <li>Mejores para interfaces y experiencias de usuario refinadas</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mejores Prácticas -->
+    <section class="mejores-practicas" id="mejores-practicas">
+        <div class="container">
+            <div class="section-header">
+                <h2>Técnicas y Mejores Prácticas</h2>
+                <div class="underline"></div>
+            </div>
+            
+            <div class="practices-grid">
+                <div class="practice-card">
+                    <div class="practice-icon"><i class="fas fa-comment-dots"></i></div>
+                    <h3>Prompting Efectivo</h3>
+                    <ul>
+                        <li>Ser específico y detallado</li>
+                        <li>Usar terminología técnica cuando sea necesario</li>
+                        <li>Dividir tareas complejas</li>
+                        <li>Proporcionar ejemplos</li>
+                        <li>Iterar progresivamente</li>
+                    </ul>
+                    <button class="btn-example" data-practice="prompting">Ver ejemplo</button>
+                </div>
+                
+                <div class="practice-card">
+                    <div class="practice-icon"><i class="fas fa-sync-alt"></i></div>
+                    <h3>Gestión de Iteraciones</h3>
+                    <ul>
+                        <li>Documentar cambios</li>
+                        <li>Preservar versiones funcionales</li>
+                        <li>Priorizar problemas críticos</li>
+                        <li>Evaluar constantemente</li>
+                        <li>Limitar el alcance por iteración</li>
+                    </ul>
+                    <button class="btn-example" data-practice="iteraciones">Ver ejemplo</button>
+                </div>
+                
+                <div class="practice-card">
+                    <div class="practice-icon"><i class="fas fa-cubes"></i></div>
+                    <h3>Optimización de Recursos</h3>
+                    <ul>
+                        <li>Reutilizar componentes</li>
+                        <li>Planificar las iteraciones</li>
+                        <li>Utilizar plantillas y patrones</li>
+                        <li>Combinar herramientas complementarias</li>
+                        <li>Aprovechar recursos gratuitos</li>
+                    </ul>
+                    <button class="btn-example" data-practice="recursos">Ver ejemplo</button>
+                </div>
+                
+                <div class="practice-card">
+                    <div class="practice-icon"><i class="fas fa-check-circle"></i></div>
+                    <h3>Evaluación de Calidad</h3>
+                    <ul>
+                        <li>Verificar funcionalidad básica</li>
+                        <li>Comprobar experiencia de usuario</li>
+                        <li>Revisar seguridad básica</li>
+                        <li>Validar rendimiento</li>
+                        <li>Contrastar con requerimientos</li>
+                    </ul>
+                    <button class="btn-example" data-practice="calidad">Ver ejemplo</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Consideraciones y Limitaciones -->
+    <section class="consideraciones" id="consideraciones">
+        <div class="container">
+            <div class="section-header">
+                <h2>Consideraciones Éticas y Limitaciones</h2>
+                <div class="underline"></div>
+            </div>
+            
+            <div class="considerations-container">
+                <div class="consideration">
+                    <div class="consideration-icon"><i class="fas fa-balance-scale"></i></div>
+                    <div class="consideration-content">
+                        <h3>Ética y Responsabilidad</h3>
+                        <p>Respetar la propiedad intelectual y derechos de autor. Considerar implicaciones de privacidad y seguridad. Evitar sesgos y discriminación en el diseño y contenido.</p>
+                    </div>
+                </div>
+                
+                <div class="consideration">
+                    <div class="consideration-icon"><i class="fas fa-exclamation-triangle"></i></div>
+                    <div class="consideration-content">
+                        <h3>Limitaciones Técnicas</h3>
+                        <p>Reconocer las capacidades y restricciones de las herramientas de IA. Identificar cuándo es necesario recurrir a desarrollo tradicional. Comprender las implicaciones de escalabilidad y mantenimiento.</p>
+                    </div>
+                </div>
+                
+                <div class="consideration">
+                    <div class="consideration-icon"><i class="fas fa-bullseye"></i></div>
+                    <div class="consideration-content">
+                        <h3>Expectativas Realistas</h3>
+                        <p>Comunicar claramente el alcance y limitaciones de los prototipos. Diferenciar entre prototipos de concepto y productos finales. Establecer expectativas adecuadas sobre rendimiento y funcionalidad.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recursos -->
+    <section class="recursos" id="recursos">
+        <div class="container">
+            <div class="section-header">
+                <h2>Recursos Adicionales</h2>
+                <div class="underline"></div>
+            </div>
+            
+            <div class="resources-grid">
+                <div class="resource-card">
+                    <div class="resource-icon"><i class="fas fa-file-pdf"></i></div>
+                    <h3>Documentos PDF</h3>
+                    <p>Descarga los documentos completos para consulta offline</p>
+                    <div class="resource-links">
+                        <a href="downloads/metodologia_vibe_coding.pdf" class="btn btn-secondary" download>Metodología</a>
+                        <a href="downloads/flujo_trabajo_vibe_coding.pdf" class="btn btn-secondary" download>Flujo de Trabajo</a>
+                        <a href="downloads/comparativa_ias.pdf" class="btn btn-secondary" download>Comparativa IAs</a>
+                        <a href="downloads/documento_integral_vibe_coding.pdf" class="btn btn-secondary" download>Documento Integral</a>
+                    </div>
+                </div>
+                
+                <div class="resource-card">
+                    <div class="resource-icon"><i class="fas fa-link"></i></div>
+                    <h3>Enlaces Útiles</h3>
+                    <p>Accede directamente a las herramientas recomendadas</p>
+                    <ul class="resource-list">
+                        <li><a href="https://manus.im/" target="_blank">Manus.im</a></li>
+                        <li><a href="https://www.genspark.ai/" target="_blank">GenSpark.ai</a></li>
+                        <li><a href="https://replit.com/" target="_blank">Replit</a></li>
+                        <li><a href="https://chat.deepseek.com/" target="_blank">DeepSeek</a></li>
+                        <li><a href="https://chat.qwen.ai/" target="_blank">Qwen.ai</a></li>
+                        <li><a href="https://www.yourware.so/" target="_blank">Yourware.so</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Conclusión -->
+    <section class="conclusion">
+        <div class="container">
+            <div class="conclusion-content">
+                <h2>Empieza a Crear con Vibe Coding</h2>
+                <p>La Metodología Vibe Coding representa un cambio paradigmático en el desarrollo de productos digitales, democratizando el acceso a la creación tecnológica y acelerando los ciclos de innovación.</p>
+                <p>Selecciona la herramienta adecuada según tus necesidades, sigue el flujo de trabajo estructurado, y materializa tus ideas digitales con mayor rapidez y menor inversión técnica.</p>
+                <a href="#metodologia" class="btn btn-primary">Comenzar Ahora <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Vibe<span>Coding</span></h2>
+                    <p>Democratizando la creación de productos digitales mediante IA</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h3>Metodología</h3>
+                        <ul>
+                            <li><a href="#metodologia">Fases</a></li>
+                            <li><a href="#flujo-trabajo">Flujo de Trabajo</a></li>
+                            <li><a href="#mejores-practicas">Mejores Prácticas</a></li>
+                            <li><a href="#consideraciones">Consideraciones</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Herramientas</h3>
+                        <ul>
+                            <li><a href="#herramientas">Comparativa</a></li>
+                            <li><a href="#herramientas">Agentes de IA</a></li>
+                            <li><a href="#herramientas">IAs con Iteraciones</a></li>
+                            <li><a href="#herramientas">Recomendaciones</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Recursos</h3>
+                        <ul>
+                            <li><a href="#recursos">Documentos PDF</a></li>
+                            <li><a href="#recursos">Enlaces Útiles</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Metodología Vibe Coding. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modales -->
+    <!-- Modal de Detalles de Herramienta -->
+    <div class="modal" id="tool-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-header">
+                <h3 id="tool-modal-title">Detalles de la Herramienta</h3>
+            </div>
+            <div class="modal-body" id="tool-modal-body">
+                <!-- Contenido dinámico -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal de Ejemplos de Prácticas -->
+    <div class="modal" id="practice-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-header">
+                <h3 id="practice-modal-title">Ejemplo de Práctica</h3>
+            </div>
+            <div class="modal-body" id="practice-modal-body">
+                <!-- Contenido dinámico -->
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10.6.1/dist/mermaid.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
